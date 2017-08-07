@@ -12,12 +12,13 @@ $ cd src/main/jni
 $ ndk-build
 ```
 
-To test on Android 7.11 emulator, x86:
+From here, to test on Android 7.1.1 emulator, x86, add these steps:
 
 ```bash
 $ cd ../obj/local
 $ adb push x86/glulxe /data/local/tmp
 $ adb shell
+  Now on Android shell:
   $ cd /data/local/tmp
   $ chmod +x glulxe
   $ ./glulxe
