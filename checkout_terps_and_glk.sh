@@ -4,7 +4,7 @@
 # Makes assumption that this is virgin run, no previous checkout files.
 #
 
-# starting form current pathl, root of project.
+# starting from current path, root of this project.
 cd src/main/jni/loadable_engines
 
 pwd
