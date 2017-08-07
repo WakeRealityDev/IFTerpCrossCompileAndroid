@@ -1,0 +1,7 @@
+# source trees aquired elsewhere
+src/main/jni/loadable_engines/glulxe/
+src/main/jni/loadable_engines/remglk/
+
+# comile output
+src/main/obj/
+src/main/libs/
