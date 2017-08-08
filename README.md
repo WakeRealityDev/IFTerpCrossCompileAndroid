@@ -3,7 +3,7 @@ Interactive Fiction Interpreter Cross Compile Androd
 
 This project serves to demonstrate a working file structure and makefiles to cross-compile established Interactive Fiction interpreter and Glk library for modern Android NDK [r15c](https://developer.android.com/ndk/downloads/index.html).
 
-It will complie the interpreter Glulxe and library RemGlk into a applicaiton binary that can be run on the android device. It is configured to generate every variation of process arhitecture that the Android NDK supports. It uses the gcc instead of (now recommended by Google) clang compiler given that's gcc the most well-known in terms of known of the various IF virtual machines on both 32bit and 64bit systems.  If you can share and test clang compiler equivlent makefiles, please do, open an Issue on this GitHub project.
+It will complie the interpreter Glulxe and library RemGlk into a applicaiton binary that can be run on android device or emulator. It is configured to generate every variation of process arhitecture that the Android NDK supports. It uses the gcc instead of (now recommended by Google) clang compiler given that's gcc the most well-known in terms of known of the various IF virtual machines on both 32bit and 64bit systems.  If you can share and test clang compiler equivlent makefiles, please do, open an Issue on this GitHub project.
 
 
 Typical Steps
