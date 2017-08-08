@@ -1,6 +1,11 @@
 # IFTerpCrossCompileAndroid
 Interactive Fiction Interpreter Cross Compile Androd
 
+This project serves to demonstrate a working file structure and makefiles to cross-compile established Interactive Fiction interpreter and Glk library for modern Android NDK [r15c](https://developer.android.com/ndk/downloads/index.html).
+
+It will complie the interpreter Glulxe and library RemGlk into a applicaiton binary that can be run on the android device. It is configured to generate every variation of process arhitecture that the Android NDK supports.
+
+
 Typical Steps
 ================
 Tested on Ubuntu 17.04 x86 system, latest Google Android NDK from Android Studio as of 2017-08-07.
