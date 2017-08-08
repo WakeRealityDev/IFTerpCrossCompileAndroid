@@ -8,7 +8,7 @@ It will complie the interpreter Glulxe and library RemGlk into a applicaiton bin
 
 Typical Steps
 ================
-Tested on Ubuntu 17.04 x86 system, latest Google Android NDK from Android Studio as of 2017-08-07.
+Tested on Ubuntu 17.04 x86 system, latest Google Android NDK from Android Studio as of 2017-08-07.  Bash is not required, you could manually run the commands inside of the checkout_terps_and_glk.sh script. These basic steps should work on Linux, OS X, Windows, etc - as long as you have the Android NDK properly installed and some way to download the IF interpreter and RemGlk.
 
 ```bash
 $ chmod +x checkout_terps_and_glk.sh
